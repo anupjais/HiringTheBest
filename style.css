@@ -1,0 +1,109 @@
+*{
+    /* background-color: gray; */
+    /* width: 98%; */
+    font-family: sans-serif;
+    align-items: center;
+    text-decoration: none;
+}
+headerr{
+    background: rgb(133, 182, 133);
+    height: 15%;
+    /* width: 92%; */
+}
+nav{
+    /* padding: 3px; */
+    /* margin: 0 5px; */
+    background: lightgray;
+    height: 10%;
+    list-style: none;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.main{
+    /* background-image:; */
+    background: auto;
+    height: 80%;
+}
+
+footer{
+    /* padding: -5px; */
+    list-style: none;
+    padding: 5px;
+    /* margin: px; */
+    background: rgb(150, 160, 160);
+    height: 17%;
+    /* width: 92%; */
+}
+
+nav ul li{
+    
+    display: inline;
+    margin: auto 5px;
+}
+footer li{
+    display: inline;
+    margin: 0 5px;
+}
+nav ul li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: all .3s;
+}
+nav ul li a:hover{
+    color: aquamarine;
+    transform: scale(2);
+}
+.active{
+    /* background: blue; */
+    color: greenyellow;
+    /* transform: scale(4.1); */
+}
+nav.a.dropdown{
+
+}
+/* a:active a:hover{
+    background: darkcyan;
+} */
+/* nav ul li:hover{
+    background: burlywood;
+
+} */
+
+.main .mimg{
+    transition-duration: 2s;
+}
+.main .mimg:hover{
+    border-radius: 300px;
+    transform: scale(2);
+
+}
+
+.logo{
+    transition-duration: 1s;
+}
+.logo:hover{
+    border-radius: 20px;
+    /* scale: 10.5; */
+    transform: scale(1.5) translateX(20px) translateY(10px);
+    box-shadow: 10px 10px 60px blueviolet;
+    /* animation-duration: 2s; */
+}
+#title{
+    transition-duration: 2s;
+}
+#title:hover{
+    transform: scale(1.5);
+}
+
+pre{
+    padding-left: 20px;
+}
+marquee{
+    direction: right;
+    transition: 1s;
+}
+marquee:hover{
+    transform: scale(1.1);
+    /* onmouse: "stop()"; */
+}
